@@ -39,8 +39,42 @@ Further debugging reveals that, later in the process, the code composes and exec
 
 <img src="img/project_1_6.png" alt="Antivirus detection" width="600"/> 
 
-The next thing thet progam does is that download python executable binary wich further on uses for the activities. After this step the 
+The next action the program takes is downloading a Python executable binary, which it later uses for further malicious activities. Once the Python binary is downloaded, the program proceeds to run a Python scripts, leveraging the newly acquired binary to execute the malicious code. The associated files, including the Python binary and script, can be found in this project under [All files](files/infected_files.7z)  (password: infected).
+<img src="img/project_1_6_1.png" alt="Python binary" width="600"/> 
+
+Later on the scripts that are run on the machine are
+1. script `.npl.py`
+    original:
+    
+    <img src="img/project_1_7.png" alt="Antivirus detection" width="600"/> 
+    
+    decoded: 
+
+    <img src="img/project_1_8.png" alt="Antivirus detection" width="600"/> 
+2. In order to achieve its final objective, the program downloads `pay.py`, which contains a **reverse shell** designed to connect back to the attacker's machine, allowing remote control of the compromised system. Additionally, other files like `pay.txt` and `any.txt` are also downloaded, likely serving as configuration or supplementary files for the malicious activities
 
 
-
+## Reverse shell code
+<img src="img/project_2_1.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_2.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_3.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_4.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_5.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_6.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_7.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_8.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_9.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_10.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_11.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_12.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_13.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_14.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_15.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_16.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_17.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_18.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_19.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_20.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_21.png" alt="Antivirus detection" width="800"/> 
+<img src="img/project_2_22.png" alt="Antivirus detection" width="800"/> 
 
