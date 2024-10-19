@@ -1,6 +1,20 @@
 # About 
 The attack primarily targets development companies with the aim of gaining initial access to their corporate infrastructure. The attack typically begins with a LinkedIn message posing as a legitimate development opportunity or business proposal. The message is designed to entice the recipient by offering a project or job, often tailored to the company's expertise. Once the recipient engages, attackers may attempt to gather information, deploy phishing links, or gain unauthorized access to critical systems, using this initial contact as a foothold into the company's network.
 
+Links: 
+- https://www.linkedin.com/in/merilyn-edeki/ still active ✅
+- https://github.com/0xcestlaview/addingtoken removed ❌
+- https://github.com/0xcompanypro/addingtoken still active ✅
+
+## Process of Removing
+- **27/09/2024**: Report submitted to the Microsoft Security Response Center (MSRC)
+- **28/09/2024**: Received a response from MSRC stating, *"It does not meet Microsoft’s requirements as a security vulnerability for servicing."*
+- **28/09/2024**: Contacted a friend from Microsoft, resulting in the malicious GitHub account being blocked. ✅
+- **04/10/2024**: Attacker reached out again with a new GitHub repository shared.
+- **04/10/2024**: Cotacted Microsoft again, but the new GitHub account remained active
+
+
+
 # LinkedIn messages
 <img src="img/msg1.png" alt="first msg" height="400px"/>
 <img src="img/msg2.png" alt="offer request" height="400px"/>
